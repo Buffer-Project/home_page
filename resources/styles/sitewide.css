@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=PT+Serif&display=swap');
 body {
     font-family: 'Nunito', sans-serif;
-    color: white;
+    color:blue;
     font-size: 23px;
     background: black;
     text-align: center;
@@ -48,4 +48,24 @@ body {
 
 #3 {
 
+}
+
+/****** MENU DESPLEGABLE ******/
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.item {
+    display: flex;
+    margin: auto;
+    width: 162px;
+}
+
+#menu {
+    background-color: 422817;
+    text-align: center;
+    width: 540;
+    margin: 20px auto;
 }

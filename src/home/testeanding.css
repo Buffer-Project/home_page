@@ -1,0 +1,61 @@
+/****** MENU DESPLEGABLE ******/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*cuando pongo el mouse arriba aparece este color*/
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color:#D3A172;
+}
+
+/*como se desplega el primer menu, el que dice menu*/
+li.dropdown {
+    display: inline-block;
+}
+
+/*cuando pones el mouse arriba y es LA CAJA que baja */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D3A172;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/*el texto del desplegable o sea el texto de las cajitas que bajan*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*el color del fondo de las cajitas deplegables, cuando pones el mouse arriba el background*/
+.dropdown-content a:hover {
+    background-color:#D3A172;
+}
+
+/*la manera que se deplega el contenido del menu desplegado*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
